@@ -1,0 +1,15 @@
+{
+  "version": "0.0.1",
+  "name": "test",
+  "main": "index.html",
+  "window": {
+    "show": true,
+    "toolbar": true,
+    "width": 800,
+    "height": 600
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "jade": "^1.11.0"
+  }
+}

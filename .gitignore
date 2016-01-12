@@ -1,0 +1,8 @@
+cache/
+dist/
+node_modules/
+app/node_modules
+app/public/components
+tmp/
+.DS_Store
+.idea/
