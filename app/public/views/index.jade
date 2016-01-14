@@ -1,4 +1,12 @@
 extend layout
 
 block content
-    div(ui-view)
+    div.menu
+        ul.nav.nav-pills.nav-stacked
+            li(ui-sref-active="active")
+                a(ui-sref='home') Home
+            li(ui-sref-active="active")
+                a(ui-sref='menu1') Item Menu 1
+            li(ui-sref-active="active")
+                a(ui-sref='menu2') Item Menu 2
+    div(ui-view).content

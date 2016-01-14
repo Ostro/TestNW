@@ -1,4 +1,4 @@
 'use strict';
 
-var app = angular.module('evkApp', ['ui.router', 'ui.bootstrap']);
+var app = angular.module('NWApp', ['ui.router', 'ui.bootstrap']);
 

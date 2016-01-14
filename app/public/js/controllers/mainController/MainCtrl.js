@@ -1,10 +1,10 @@
 
-app.controller('MainCtrl', ['$scope', '$http', function($scope, $http) {
+app.controller('MainCtrl', ['$scope', '$http', 'title', function($scope, $http, title) {
     'use strict';
-    $scope.message = 'Hello world !!!';
+    $scope.title = title;
 
     $scope.getMessage = function() {
-        $http.get('/plop')
+        $http.get('/testAPI')
         .then(function(res) {
                 $scope.message = res.data;
             })

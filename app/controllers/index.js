@@ -7,7 +7,7 @@ module.exports = function() {
         res.render('index');
     });
 
-    router.get('/plop', function(req, res) {
+    router.get('/testAPI', function(req, res) {
         res.send('It works !!!');
     });
 
