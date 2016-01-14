@@ -1,5 +1,6 @@
 cache/
 dist/
+release/
 node_modules/
 app/node_modules
 app/public/components
